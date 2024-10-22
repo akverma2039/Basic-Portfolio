@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:#333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding: 2rem;
+}
+
+.project{
+    margin: 1rem 0;
+}
+
+#contactForm input, #contactForm textarea {
+    display:block;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+#contactForm button{
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
